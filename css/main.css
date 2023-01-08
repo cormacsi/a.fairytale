@@ -143,10 +143,10 @@ body {
 	will-change: transform;
 }
 .layer__down {
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /* background-size: 100%;
+  background-repeat: no-repeat; */
   position: fixed;
-  bottom: -10px;
+  bottom: 22%;
   width: 100%;
   opacity: .95;
   transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
