@@ -9,6 +9,8 @@
   </a>
 </div>
 
+<h4 align="center">See the web-site: <a href="https://cormacsi.github.io/a.fairytale/">here</a></h4>
+
 ## About :computer:
 This is a school project to study how to write an animated and responsive web-site.
 `The web-site is not commercial and is only done for studying purposes.`
