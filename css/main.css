@@ -149,7 +149,7 @@ body {
   background-repeat: no-repeat; */
   position: fixed;
   bottom: 22%;
-  width: 100%;
+  width: 100vw;
   opacity: .95;
   transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
   transition: var(--transition);
@@ -166,4 +166,29 @@ body {
   transition: var(--transition);
 	will-change: transform;
   z-index: 3;
+}
+@media (max-width: 767px) {
+	.main-article__whale {
+		position: absolute;
+		bottom: 0;
+		transform: none;
+		transition: none;
+		will-change: none;
+		bottom: 50px;
+	}
+	.layer__down {
+		position: absolute;
+		bottom: 0;
+		transform: none;
+		transition: none;
+		will-change: none;
+	}
+	.copy {
+		position: absolute;
+		bottom: 0;
+		transform: none;
+		transition: none;
+		will-change: none;
+		padding-bottom: 30px;
+	}
 }
